@@ -1,0 +1,71 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scorekeeper</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="text-center">Scoreboard<br><i class="fa fa-gamepad" aria-hidden="true"></i></h1>
+        </div>
+    </div>
+    <div id="content" class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="text-center">
+                    <h3>Playing to:  <span class="maxScore">5</span></h3>
+                    <div class="btn-group btn-group-xs" role="group">
+                        <button id="maxScoreSubtract" type="button" class="btn btn-default">-</button>
+                        <button id="maxScoreAdd" type="button" class="btn btn-default">+</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-sm-3"></div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <h3>Player 1</h3>
+                    <h2 id="player1Score" class="playerScore">0</h2>
+                    <div class="btn-group" role="group">
+                        <button id="player1Subtract" type="button" class="btn btn-default">-</button>
+                        <button id="player1Add" type="button" class="btn btn-default">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <h3 id="winnerText" class="winner"></h3>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="text-center">
+                    <h3>Player 2</h3>
+                    <h2 id="player2Score" class="playerScore">0</h2>
+                    <div id="player2Buttons" class="btn-group" role="group">
+                        <button id="player2Subtract" type="button" class="btn btn-default">-</button>
+                        <button id="player2Add" type="button" class="btn btn-default">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+        <hr>
+        <button id="reset" class="center-block">reset scores</button>
+    </div>
+
+
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

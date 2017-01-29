@@ -1,0 +1,45 @@
+body {
+  background-image: url("../images/splash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #000000;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.maxScore {
+  font-weight: bold;
+}
+
+.playerScore {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.jumbotron {
+  margin-top: 20px;
+}
+
+#content {
+  background-color: #f0f0f0;
+  padding-top: 15px;
+  padding-bottom: 35px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+button {
+  font-weight: bold;
+}
+
+.winner {
+  color: #449d44;
+}
